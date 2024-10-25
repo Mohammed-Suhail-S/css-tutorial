@@ -1,0 +1,66 @@
+.main .box1 {
+    background-color: coral;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.main .box2 {
+    background-color: lime;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.main .box3 {
+    background-color: skyblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.main .box4 {
+    background-color: yellow;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    .main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .main .box1 {
+        background-color: orchid;
+    }
+}

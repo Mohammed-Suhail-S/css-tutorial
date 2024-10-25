@@ -1,0 +1,18 @@
+.parent {
+     background-color: black;
+     padding: 70px;
+     display: grid;
+     /* grid-template-columns: repeat(4,1fr); */
+     /* grid-template-columns: minmax(150px,1fr) minmax(150px,1fr) minmax(150px,1fr) minmax(150px,1fr); */
+     /* grid-template-columns: repeat(minmax(150px,1fr)); */
+     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+} 
+
+.child {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 20px;
+}

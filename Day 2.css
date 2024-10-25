@@ -1,0 +1,61 @@
+h1 {
+    color: red;
+} 
+
+.chennai {
+    color: green;
+    font-size: 20px;
+}
+
+#tn {
+    color: blue;
+    font-size: 30px;
+}
+
+h4,p,h5 {
+    color: orange;
+    font-size: 40px;
+}
+
+* h3 {
+    background-color: skyblue;
+}
+
+.div {
+    color: black;
+    background-color: white;
+}
+
+.div:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+[href] {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+[href]:hover {
+    color: red;
+    cursor: pointer;
+}
+
+[src] {
+    height: 200px;
+    width: 200px;
+}
+
+.dotted { border: dotted; }
+.dashed { border: dashed; }
+.solid { border: solid; }
+.double { border: double; }
+.groove { border: groove; }
+.ridge { border: ridge; }
+.inset { border: inset; }
+.outset { border: outset; }
+.none { border: none; }
+.mix { border-style: dotted dashed solid double; } 

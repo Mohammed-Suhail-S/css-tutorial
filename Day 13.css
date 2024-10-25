@@ -1,0 +1,84 @@
+body{
+    background-color: skyblue;
+    overflow: hidden; 
+    animation: cloud 10s linear 0s infinite;
+}
+
+.truck {
+    position: absolute;
+    top:400px;
+    animation-name: truck-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes truck-animation {
+    from {left: -300px;}
+    to {left: 100%;}
+} 
+
+.cloud {
+    position: absolute;
+    top:30px;
+    right: 10px;
+    animation: smallcloud-animation 50s linear 1s infinite;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.sun {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    border-radius: 50%;
+    animation: sun 10s linear 0s infinite;
+}
+
+.large-cloud {
+    position: absolute;
+    top:200px;
+    right: 10px;
+    width: 400px;
+    animation: smallcloud-animation 30s linear 1s infinite;
+    opacity: 0.9;
+    z-index: 2; 
+}
+
+@keyframes smallcloud-animation {
+    from {right: -200px;}
+    to {right: 100%;}
+}
+
+.plane {
+    height: 400px;
+    width: 400px;
+    transform: rotateY(180deg) rotateZ(10deg);
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    animation: plane 10s linear 0s infinite;
+    z-index: 1;
+}
+
+@keyframes plane {
+    from {right: -250px;}
+    to {right: 100%;}
+}
+
+@keyframes cloud {
+    25% {background-color: skyblue;}
+    50% {background-color: orange;}
+    75% {background-color: midnightblue;}
+    100% {background-color: skyblue;}
+}
+
+@keyframes sun {
+    25% {background-color: yellow;}
+    50% {background-color: yellow;}
+    75% {background-color: white;}
+    100% {background-color: yellow;}
+}

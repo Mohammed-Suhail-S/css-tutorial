@@ -1,0 +1,48 @@
+body {
+    background-color: wite;
+}
+
+* {
+    background-color: skyble;
+}
+
+html {
+    background-color: wite;
+    background-image: url('./images/vijay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.col p {
+    width: 33%;
+    float: left;
+    text-align: justify;
+    margin: 10px;
+    background-color: orage;
+}
+
+.back p {
+    float: left;
+    font-weight: bold;
+}
+
+.pos {
+    float: left;
+    font-size: 25px;
+    border: 10px dashed black;
+    padding: 10px;
+    background-image: url('./images/tiger.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: top center;
+    background-origin: content-box;
+}
+
+h1 {
+    font-size: 50px;
+    background-image: url('./images/rajini.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

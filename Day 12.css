@@ -1,0 +1,42 @@
+.container {
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 150px auto;
+    perspective: 1000px;
+    background: url(./images/dulquer.jpg);
+    background-size: cover;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: 3s;
+}
+
+.child:hover {
+    transform: rotateY(-180deg);
+} 
+
+.box1,.box2 {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: red;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}

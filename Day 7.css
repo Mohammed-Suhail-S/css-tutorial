@@ -1,0 +1,163 @@
+.container {
+      display: flex;
+}
+
+.one {
+      background-color: red;
+      text-align: justify;
+      padding: 5px;
+      order: 3;
+}
+
+.two {
+      background-color: yellow;
+      text-align: justify;
+      padding: 5px;
+      order: 2;
+}
+
+.three {
+      background-color: green;
+      text-align: justify;
+      padding: 5px;
+      order: 1;
+}
+
+.container2 {
+    display: flex;
+}
+
+.one2 {
+    background-color: red;
+    text-align: justify;
+    padding: 5px;
+    flex: 6;
+}
+
+.two2 {
+    background-color: yellow;
+    text-align: justify;
+    padding: 5px;
+    flex: 2;
+}
+
+.three2 {
+    background-color: green;
+    text-align: justify;
+    padding: 5px;
+    flex: 2;
+}
+
+.red {
+    height: 500px;
+    width: 1000px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blue {
+    height: 250px;
+    width: 500px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: center;
+}
+
+.main {
+    height: 500px;
+    width: 1000px;
+    padding: 15px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+}
+
+.main2 {
+    height: 500px;
+    width: 1000px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+} 
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: center;
+} 
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: flex-end;
+} 
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: center;
+} 
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: flex-start;
+} 
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: center;
+} 
+
+.box7 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: flex-end;
+} 
+
+.box8 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: center;
+} 
+
+.box9 {
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    border: 3px solid white;
+    align-self: flex-start;
+} 

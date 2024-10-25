@@ -1,0 +1,63 @@
+.outline {
+       border: 5px solid black;
+       outline: 5px solid red;
+}
+
+.justify {
+     text-align: justify;
+     text-align-last: center;
+}
+
+h1 {
+     text-decoration-line: overline;
+}
+
+h2 {
+     text-decoration-line: line-through;
+}
+
+h3 {
+     text-decoration-line: underline;
+}
+
+h4 {
+     text-decoration-line: overline underline;
+}
+
+.upper {
+     text-transform: uppercase;
+}
+
+.lower {
+     text-transform: lowercase;
+}
+
+.capital {
+     text-transform: capitalize;
+}
+
+#indent {
+     text-indent: 125px;
+}
+
+h5 {
+     letter-spacing: 4px;
+     font-size: 30px;
+     word-spacing: 10px;
+} 
+
+p.height {
+     line-height: 50px;
+     word-spacing: 25px;
+}
+
+div {
+     height: 300px;
+     width: 300px;
+     background-color: lightgreen;
+     margin: 20px;
+     box-sizing: border-box;
+     text-align: center;
+     padding-top: 140px;
+     display: inline-block;
+} 
